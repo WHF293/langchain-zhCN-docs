@@ -43,3 +43,5 @@ vitepress.config.ts.timestamp-*
 # 部署相关的临时文件
 docs/.vitepress/dist/
 docs/.vitepress/cache/
+
+.claude/*

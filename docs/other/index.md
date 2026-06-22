@@ -22,7 +22,7 @@
 
 ---
 
-### ⚔️ [DeepAgents vs Claude Code vs OpenCode 对比说明](./deepagents-对比-claude.md)
+### ⚔️ [DeepAgents vs Claude Code vs OpenCode 对比说明](./deepagents 对比 claude.md)
 
 **核心内容：** 对比 LangChain DeepAgents、Claude Code、OpenCode 三款 Agent 工具的本质定位、核心能力和适用场景
 
