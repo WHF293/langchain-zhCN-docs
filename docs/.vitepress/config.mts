@@ -4,8 +4,8 @@ export default defineConfig({
   title: 'LangChain 中文文档',
   description: 'LangChain、LangGraph、DeepAgents 中文文档',
 
-  // 如果部署到 Gitee Pages 子目录，需要配置 base
-  // base: '/langchain-zhcn-docs/', // 替换为你的仓库名
+  // 部署到 GitHub Pages 子目录，配置 base
+  base: '/langchain-zhCN-docs/',
 
   // 主题配置
   themeConfig: {
