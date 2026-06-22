@@ -1,0 +1,45 @@
+# 依赖目录
+node_modules/
+
+# 构建输出
+dist/
+.cache/
+
+# VitePress 构建产物
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# TypeScript 缓存
+*.tsbuildinfo
+
+# 调试文件
+*.log
+
+# 本地配置
+vitepress.config.ts.timestamp-*
+
+# 部署相关的临时文件
+docs/.vitepress/dist/
+docs/.vitepress/cache/

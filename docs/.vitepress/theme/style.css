@@ -1,0 +1,85 @@
+/**
+ * Claude 橙色主题
+ * 自定义 VitePress 主题颜色
+ */
+
+/* 全局 CSS 变量 */
+:root {
+  /* 品牌颜色 - Claude 橙色 */
+  --vp-c-brand-1: #D97706;
+  --vp-c-brand-2: #B45309;
+  --vp-c-brand-3: #92400E;
+  --vp-c-brand-soft: rgba(217, 119, 6, 0.14);
+
+  /* 按钮颜色 */
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-bg: #D97706;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-bg: #B45309;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-bg: #92400E;
+
+  /* 首页按钮 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #D97706 0%, #F59E0B 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(217, 119, 6, 0.2) 0%, rgba(245, 158, 11, 0.1) 100%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
+  /* 深色模式下的品牌颜色 */
+  --vp-c-brand-1: #F59E0B;
+  --vp-c-brand-2: #D97706;
+  --vp-c-brand-3: #B45309;
+  --vp-c-brand-soft: rgba(245, 158, 11, 0.16);
+
+  /* 深色模式按钮 */
+  --vp-button-brand-bg: #D97706;
+  --vp-button-brand-hover-bg: #F59E0B;
+  --vp-button-brand-active-bg: #B45309;
+
+  /* 深色模式首页 */
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(217, 119, 6, 0.08) 100%);
+}
+
+/* 自定义样式 */
+.VPFeature {
+  border-color: var(--vp-c-brand-soft) !important;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1) !important;
+}
+
+/* 侧边栏活动项 */
+.VPSidebarItem.is-active > .item > .indicator {
+  background-color: var(--vp-c-brand-1) !important;
+}
+
+/* 链接下划线 */
+.vp-doc a {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-2) !important;
+}
+
+/* 搜索高亮 */
+.search-bar .search-highlight {
+  background-color: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+}
+
+/* 代码块 */
+.vp-doc div[class*='language-'] > button {
+  color: var(--vp-c-brand-1);
+}
+
+/* 表格行悬停 */
+.vp-doc tr:hover {
+  background-color: var(--vp-c-brand-soft);
+}

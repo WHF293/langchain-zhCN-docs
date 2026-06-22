@@ -1,0 +1,27 @@
+{
+  "name": "langchain-zhcn-docs",
+  "version": "1.0.0",
+  "description": "LangChain、LangGraph、DeepAgents 中文文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "deploy": "bash deploy.sh",
+    "deploy:win": "deploy.bat",
+    "deploy:gitee": "bash deploy-gitee.sh",
+    "deploy:gitee:win": "deploy-gitee.bat"
+  },
+  "keywords": [
+    "langchain",
+    "langgraph",
+    "deepagents",
+    "docs",
+    "vitepress"
+  ],
+  "author": "wanghaofeng",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
